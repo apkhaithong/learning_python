@@ -1,0 +1,11 @@
+# variable type tube คล้ายกับ list แต่เพิ่ม, ลบ, แก้ไข ไม่ได้
+var_tuble = ( 'abcd', 123 , 1.23, 'Test Program', 20.2 )
+var_tinytuble = (123, 'admin')
+print (type(var_tuble))
+print (var_tuble)
+print (var_tuble[0])
+print (var_tuble[:2])
+print (var_tuble[1:3])
+print (var_tuble[2:])
+print (var_tinytuble * 2)
+print (var_tuble + var_tinytuble)
